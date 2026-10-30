@@ -1,0 +1,374 @@
+{
+ "about": "Edit freely. Add questions from your own daily use: the more realistic, the more trustworthy the score. has_docs / has_screen say which tools were possible; expected is the tool you wanted.",
+ "documents": [
+  "quarterly_report.pdf",
+  "taxi_bill.pdf"
+ ],
+ "screen_app": "chrome.exe",
+ "cases": [
+  {
+   "question": "What does this error mean?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Summarize this page",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "What am I looking at?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Explain the code on my screen",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Which number in this table is the largest?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Is this email a scam?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "What is wrong with this formula?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "What price is shown here?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Translate this paragraph into Hindi",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Why is the button greyed out?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "What is the total fare in the taxi bill?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "According to the quarterly report, how much did revenue grow?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "What did the report say about risks?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "Summarize my quarterly report",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "Which page mentions GST?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "Find the section on operating costs in my pdf",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "What is the pickup location on the taxi receipt?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "What is the capital of Australia?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Write a short poem about the monsoon",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Explain gradient descent in two lines",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Give me three interview tips for a data analyst role",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "How do I reverse a list in Python?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "What is RAG?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Convert 25 degrees Celsius to Fahrenheit",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Thanks, that helps",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": "chat",
+   "expected": "chat"
+  },
+  {
+   "question": "And what was the date?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": "doc",
+   "expected": "doc"
+  },
+  {
+   "question": "Which page is that on?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": "doc",
+   "expected": "doc"
+  },
+  {
+   "question": "And what about the second paragraph?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": "screen",
+   "expected": "screen"
+  },
+  {
+   "question": "What does the last line say?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": "screen",
+   "expected": "screen"
+  },
+  {
+   "question": "Can you make that shorter?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": "chat",
+   "expected": "chat"
+  },
+  {
+   "question": "Give me another example",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": "chat",
+   "expected": "chat"
+  },
+  {
+   "question": "How much was the GST on the bill?",
+   "has_docs": true,
+   "has_screen": false,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "What are the key findings in the report?",
+   "has_docs": true,
+   "has_screen": false,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "Does the quarterly report mention headcount?",
+   "has_docs": true,
+   "has_screen": false,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "Tell me a joke",
+   "has_docs": true,
+   "has_screen": false,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "What is the difference between precision and recall?",
+   "has_docs": true,
+   "has_screen": false,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Draft a polite email asking for a deadline extension",
+   "has_docs": true,
+   "has_screen": false,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Who founded Microsoft?",
+   "has_docs": true,
+   "has_screen": false,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "What does this dialog want me to do?",
+   "has_docs": false,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Summarize what is on screen",
+   "has_docs": false,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Why is this chart trending down?",
+   "has_docs": false,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "What is a good name for a cat?",
+   "has_docs": false,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Explain what an API is",
+   "has_docs": false,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "What is the boiling point of water?",
+   "has_docs": false,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Hey, can you take a look at my chrome browser's active tab and tell me what this article is about?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Can you take a look at this window's settings and tell me what is wrong here?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Look at my screen and tell me which button to click next",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Check the active tab and summarize it for me",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Take a look at the open window and tell me why the install failed",
+   "has_docs": false,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "screen"
+  },
+  {
+   "question": "Take a look at the quarterly report in my documents and list the risks",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "doc"
+  },
+  {
+   "question": "What's the weather usually like in Delhi in October?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  },
+  {
+   "question": "Can you help me write a LinkedIn headline for a Python developer?",
+   "has_docs": true,
+   "has_screen": true,
+   "last_tool": null,
+   "expected": "chat"
+  }
+ ]
+}

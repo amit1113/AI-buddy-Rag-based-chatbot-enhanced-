@@ -1,0 +1,9 @@
+google-genai
+faiss-cpu
+pypdf
+numpy
+python-dotenv
+mss
+Pillow
+psutil
+pynput; sys_platform != "win32"

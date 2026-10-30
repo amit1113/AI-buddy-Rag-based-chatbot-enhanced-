@@ -1,0 +1,26 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Your private data: indexed documents and the last screen capture
+data/
+
+# Your own documents
+*.pdf
+
+# Test questions generated from your own documents
+evaluation/retrieval_cases*.json
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
